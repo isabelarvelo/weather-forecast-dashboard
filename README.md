@@ -9,8 +9,10 @@ Beyond the standard meteorological metrics, the platform stands out by providing
 AI-guided clothing recommendations based on the current conditions, addressing 
 the everyday challenge of dressing appropriately for the weather.
 
-![Dashboard Screenshot](./images/dashboard-screenshot.png)
-![Forecast Screenshot](./images/forecast-screenshot.png)
+<div align="center">
+    <img src="./images/dashboard-screenshot.png" width="400px" alt="Dashboard Screenshot">
+    <img src="./images/forecast-screenshot.png" width="400px" alt="Forecast Screenshot">
+</div>
 
 ### Files and Descriptions
 1. **main.py**: The main script that orchestrates the execution of the project.
