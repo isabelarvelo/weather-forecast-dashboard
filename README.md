@@ -9,6 +9,9 @@ Beyond the standard meteorological metrics, the platform stands out by providing
 AI-guided clothing recommendations based on the current conditions, addressing 
 the everyday challenge of dressing appropriately for the weather.
 
+![Dashboard Screenshot](./images/dashboard-screenshot.png)
+![Forecast Screenshot](./images/forecast-screenshot.png)
+
 ### Files and Descriptions
 1. **main.py**: The main script that orchestrates the execution of the project.
 2. **api_utils.py**: Contains utility functions related to API interactions.
