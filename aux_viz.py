@@ -280,13 +280,14 @@ def generate_wind_rose(forecast_df):
         pd.cut(df["windDirection"], bins=dir_bins, labels=dir_labels, right=False)
                 )
         .replace({'WindDir_bins': {360: 0}})
-        .groupby(by=['WindSpd_bins', 'WindDir_bins'])
+        .groupby(by=['WindSpd_bins', 'WindDir_bins'], observed=False)
         .size()
         .unstack(level='WindSpd_bins')
         .fillna(0)
         .assign(calm=lambda df: calm_count / df.shape[0])
         .sort_index(axis=1)
-        .applymap(lambda x: x / total_count * 100)
+        .apply(lambda col: col.map(lambda x: x / total_count * 100))
+
     )
 
     directions = np.arange(0, 360, 15)

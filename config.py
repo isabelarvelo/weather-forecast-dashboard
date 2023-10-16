@@ -1,0 +1,2 @@
+OPENAI_API_KEY = "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"
+TOMORROW_IO_API_KEY = "pdyijEe2AqRnNzsyN1vlr2vbxnjuHGDz"

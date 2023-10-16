@@ -69,13 +69,16 @@ now_data_dict = now_data['data']['values']
 # Convert Historical and Forecast Data to Pandas Df
 # historical_data_df = convert_to_df(historical_data)
 forecast_data_df = convert_to_df(forecast_data)
-forecast_data_df["image_names"] = get_image_names(forecast_data_df)
+
 
 # historical_data_df = process_data(historical_data_df, location_obj)
 forecast_data_df = process_data(forecast_data_df, location_obj)
 
 # historical_data_df = add_desc(historical_data_df)
 forecast_data_df = add_desc(forecast_data_df)
+
+#add 
+forecast_data_df["image_names"] = get_image_names(forecast_data_df)
 
 # UV Index Dial
 uvIndex = now_data_dict['uvIndex']
