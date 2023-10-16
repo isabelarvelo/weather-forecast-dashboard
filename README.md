@@ -5,7 +5,7 @@
 The project, through its main.py script, offers a comprehensive weather insights
 platform built on the Dash framework. Users receive real-time weather data and 
 forecasts for their chosen locations, presented in a visually engaging dashboard. 
-Beyond the standard meteorological metrics, the platform stands out by providing
+Beyond the standard meteorological metrics, the platform provies
 AI-guided clothing recommendations based on the current conditions, addressing 
 the everyday challenge of dressing appropriately for the weather.
 
